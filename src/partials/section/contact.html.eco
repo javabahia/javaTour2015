@@ -1,16 +1,26 @@
 <h2 class="section-title"><%= @labels['contact'] %></h2>
-<form method="post" action="contact.php" id="form" class="form">
+<form id="form2" name="form2" class="wufoo topLabel page form" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+      action="https://mariojp.wufoo.com/forms/mov7oxm1f5an03/#public">
   <div class="control-group control-group-name">
-    <label for="name">Nome</label>
-    <input type="text" name="name" id="name" placeholder="Nome">
+    <label for="Field3">Nome</label>
+    <input id="Field3" name="Field3" type="text" class="field text medium" value="" maxlength="255" tabindex="1" onkeyup="" required />
   </div>
   <div class="control-group control-group-email">
-    <label for="email">E-mail</label>
-  <input type="email" name="email" id="email" placeholder="E-mail">
+    <label for="Field4">E-mail</label>
+    <input id="Field4" name="Field4" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="2" required />
   </div>
   <div class="control-group">
-    <label for="message">Mensagem</label>
-  <textarea name="" id="message" cols="30" rows="10" placeholder="Mensagem"></textarea>
+    <label for="Field5">Mensagem</label>
+    <textarea id="Field5"
+    name="Field5"
+    class="field textarea medium"
+    spellcheck="true"
+    rows="10" cols="50"
+    tabindex="3"
+    onkeyup=""
+          required  ></textarea>
+
   </div>
   <input class="btn btn-send" type="submit" value="Enviar">
+  <input type="hidden" id="idstamp" name="idstamp" value="+7opwSl2vYXMN2/tlSrjaSwEFwV/oObkg9RPE+9I2TI=" />
 </form>
