@@ -1,6 +1,11 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
-
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
-
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate">repository on Github</a> for more details =D</p>
+<p itemprop="description">
+Salvador vai ser uma das sedes do JUG Tour Brasil 2015.<b>
+Esse evento vai acontecer nas pricipais cidades brasileiras e faz parte das comemorações dos 20 anos de Java e do retorno do JavaOne ao país<br>
+Nessa edição vamos contar com a participação de dois dos maiores evangelizadores Java no mundo.
+</p>
+<p itemprop="description">
+Data: 04 de Julho de 2015<br>
+Horário: 13:00hs <br>
+Local: Auditório da Universidade Católica do Salvador - UCSal - Campus Pituaçu, Salvador
+</p>
