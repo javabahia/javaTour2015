@@ -21,15 +21,15 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-      text: "Increva-se!",
-      link: "http://even.tc/jug-tour-brasil-2015-edicao-sa"
+      text: "Inscreva-se!",
+      link: "http://even.tc/jugtourbrasil2015edssa"
     },
 
     // Site info
     site: {
       theme: "yellow-swan",
       url: "http://javaTour2015.github.io/javaTour2015/",
-      googleanalytics: "UA-33656081-1"
+      googleanalytics: "UA-2890985-10"
     },
 
     // Active sections on the website
