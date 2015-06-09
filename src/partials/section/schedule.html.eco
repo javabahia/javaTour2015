@@ -1,13 +1,11 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 <div class="schedule-tbl">
   <table>
     <thead>
       <tr>
-        <th class="schedule-time">Time</th>
-        <th class="schedule-slot">Slot</th>
-        <th class="schedule-description">Description</th>
+        <!--<th class="schedule-time">Time</th>-->
+        <th class="schedule-slot">Palestra</th>
+        <th class="schedule-description">Descrição</th>
       </tr>
     </thead>
     <tbody>
@@ -15,7 +13,7 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       <% for slot in @schedule: %>
         <% if slot.presentation: %>
           <tr>
-            <td class="schedule-time"><%= slot.presentation.time %></td>
+            <!--<td class="schedule-time"><%= slot.presentation.time %></td>-->
             <td class="schedule-slot">
             <% if slot.photo: %>
               <span class="speaker-photo">
@@ -29,7 +27,7 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
           </tr>
         <% else: %>
           <tr class="schedule-other">
-            <td class="schedule-time"><%= slot.time %></td>
+            <!--<td class="schedule-time"><%= slot.time %></td>-->
             <td class="schedule-slot"><%= slot.name %></td>
             <td class="schedule-description">-</td>
           </tr>
